@@ -28,9 +28,9 @@
     </div>
   </div>
   <nav>
-    <ul class="navItems">
-      <li class="navItem"><a href="/">Home</a></li>
-      <li class="navItem"><a href="/protected">Protected</a></li>
+    <ul class="navItems bg-slate-400">
+      <li class="navItem text-white"><a href="/">Home</a></li>
+      <li class="navItem text-white"><a href="/protected">Protected</a></li>
     </ul>
   </nav>
 </header>

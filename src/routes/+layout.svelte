@@ -4,9 +4,9 @@ import Header from "$components/header.svelte"
 // @ts-ignore
 import Footer from "$components/footer.svelte"</script>
 
-<div class="container">
+<div class="container items-center">
   <Header></Header>
-  <slot></slot>
+  <slot class="container"></slot>
   <Footer></Footer>
 </div>
 
