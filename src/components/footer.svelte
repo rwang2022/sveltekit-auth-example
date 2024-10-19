@@ -3,7 +3,10 @@
   import ExternalIcon from "./external-icon.svelte";
 </script>
 
-<footer class="flex w-[100%] justify-between items-center">
+<footer
+  class="flex w-[100%] justify-between items-center"
+  style="padding-inline: 1.25rem; margin-block: 2rem;"
+>
   <div class="gap-4 flex flex-wrap items-center">
     <a href="https://sveltekit.authjs.dev">Documentation <ExternalIcon /></a>
     <a href="https://www.npmjs.com/package/next-auth"> NPM <ExternalIcon /> </a>
